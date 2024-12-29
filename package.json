@@ -1,13 +1,13 @@
 {
   "name": "my-app",
-  "homepage": "https://username.github.io/employee/",
+  "homepage": "https://username.github.io/Employee_Managment_system/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "vite gh-pages",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
