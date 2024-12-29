@@ -4,5 +4,5 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 export default defineConfig({
   plugins: [react(),],
-  base: "/Employee_Managment_system"
+  base: "/Employee-Managment-System"
 });
